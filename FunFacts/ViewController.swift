@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        funFactLabel.text = factModel.facts[0]
+        funFactLabel.text = factModel.getRandomFact()
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
     @IBAction func showFunFact() {
         
-        funFactLabel.text = factModel.facts[0]
+        funFactLabel.text = factModel.getRandomFact()
     }
     
 }
