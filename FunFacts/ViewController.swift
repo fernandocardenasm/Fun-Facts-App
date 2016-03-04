@@ -11,12 +11,18 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var funFactLabel: UILabel!
-    let factModel = FactModel()
+    @IBOutlet weak var funFactButton: UIButton!
     
+    
+    let factModel = FactModel()
+    let randomColor = ColorModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let color = randomColor.getRandomColor()
+        view.backgroundColor = color
+        funFactButton.tintColor = color
         funFactLabel.text = factModel.getRandomFact()
     }
 
@@ -27,7 +33,9 @@ class ViewController: UIViewController {
 
 
     @IBAction func showFunFact() {
-        
+        let color = randomColor.getRandomColor()
+        view.backgroundColor = color
+        funFactButton.tintColor = color
         funFactLabel.text = factModel.getRandomFact()
     }
     

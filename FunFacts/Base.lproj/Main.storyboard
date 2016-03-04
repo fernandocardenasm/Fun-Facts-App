@@ -64,6 +64,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="funFactButton" destination="ZA4-Ay-ihN" id="g9W-Ui-npY"/>
                         <outlet property="funFactLabel" destination="upy-tq-CXB" id="uXA-BW-wTb"/>
                     </connections>
                 </viewController>
