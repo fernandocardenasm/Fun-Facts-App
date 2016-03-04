@@ -12,6 +12,7 @@
 		EC0ADFB01C8885C200AD104B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0ADFAE1C8885C200AD104B /* Main.storyboard */; };
 		EC0ADFB21C8885C200AD104B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0ADFB11C8885C200AD104B /* Assets.xcassets */; };
 		EC0ADFB51C8885C200AD104B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0ADFB31C8885C200AD104B /* LaunchScreen.storyboard */; };
+		EC0ADFBD1C89234500AD104B /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0ADFBC1C89234500AD104B /* FactModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC0ADFB11C8885C200AD104B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC0ADFB41C8885C200AD104B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC0ADFB61C8885C200AD104B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0ADFBC1C89234500AD104B /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				EC0ADFAA1C8885C200AD104B /* AppDelegate.swift */,
 				EC0ADFAC1C8885C200AD104B /* ViewController.swift */,
 				EC0ADFAE1C8885C200AD104B /* Main.storyboard */,
+				EC0ADFBC1C89234500AD104B /* FactModel.swift */,
 				EC0ADFB11C8885C200AD104B /* Assets.xcassets */,
 				EC0ADFB31C8885C200AD104B /* LaunchScreen.storyboard */,
 				EC0ADFB61C8885C200AD104B /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0ADFBD1C89234500AD104B /* FactModel.swift in Sources */,
 				EC0ADFAD1C8885C200AD104B /* ViewController.swift in Sources */,
 				EC0ADFAB1C8885C200AD104B /* AppDelegate.swift in Sources */,
 			);
